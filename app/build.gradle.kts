@@ -44,6 +44,7 @@ dependencies {
     // Dependencia de room-ktx para soporte de corrutinas
     implementation("androidx.room:room-ktx:$room_version")
     implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.lifecycle.runtime.compose)
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
